@@ -12,7 +12,9 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <h1>New Project</h1>
+        <h1 className='text-secondary-bright-red font-heading font-bold'>
+          New Project
+        </h1>
       </main>
     </div>
   );
