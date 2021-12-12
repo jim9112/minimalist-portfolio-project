@@ -3,7 +3,7 @@ import Footer from './Footer';
 import Navbar from './Navbar';
 export default function Layout({ children }: { children: ReactElement }) {
   return (
-    <div>
+    <div className='bg-secondary-very-light-grey min-h-screen'>
       <Navbar />
       <main>{children}</main>
       <Footer />
