@@ -3,11 +3,11 @@ import profilePic from '../public/homepage/desktop/image-homepage-profile@2x.jpg
 
 export default function AboutMe() {
   return (
-    <div className='pt-24'>
-      <div>
+    <div className='pt-24 divide-y-2 divide-secondary-light-grey'>
+      <div className='pb-8'>
         <Image src={profilePic} alt='profile pictture' />
       </div>
-      <div className='text-primary-greyish-blue'>
+      <div className='text-primary-greyish-blue flex flex-col gap-7 pt-8'>
         <h1 className='font-heading font-bold text-4xl'>About Me</h1>
         <p className='font-body text-base'>
           I’m a junior front-end developer looking for a new role in an exciting
