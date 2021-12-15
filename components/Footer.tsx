@@ -7,13 +7,15 @@ import logoWhite from '../public/logo-white.svg';
 export default function Footer() {
   return (
     <div>
-      <div className='px-8 py-20 flex flex-col gap-8 items-center'>
-        <h1 className='text-primary-greyish-blue font-heading font-bold text-4xl'>
-          Interested in doing a project together?
-        </h1>
-        <button className='border-2 border-primary-greyish-blue px-8 w-max h-12 font-body text-xs'>
-          CONTACT ME
-        </button>
+      <div className='px-8 pt-10'>
+        <div className=' pb-20 pt-28 flex flex-col gap-8 items-center border-t-2 border-secondary-light-grey'>
+          <h1 className='text-primary-greyish-blue font-heading font-bold text-4xl'>
+            Interested in doing a project together?
+          </h1>
+          <button className='border-2 border-primary-greyish-blue px-8 w-max h-12 font-body text-xs'>
+            CONTACT ME
+          </button>
+        </div>
       </div>
       <footer className='bg-primary-greyish-blue text-secondary-very-light-grey flex flex-col items-center py-14 gap-10'>
         <div>
