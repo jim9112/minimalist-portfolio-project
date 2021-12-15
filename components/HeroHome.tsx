@@ -4,7 +4,7 @@ import downArrowsIcon from '../public/icons/down-arrows.svg';
 export default function HeroHome() {
   return (
     <div className='relative'>
-      <div className='h-[271px] md:h-[666px] overflow-hidden relative'>
+      <div className='h-[271px] md:h-[665px] overflow-hidden relative'>
         <Image
           src={heroImage}
           alt='hero image'
