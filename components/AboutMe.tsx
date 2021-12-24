@@ -3,16 +3,17 @@ import profilePic from '../public/homepage/desktop/image-homepage-profile@2x.jpg
 
 export default function AboutMe() {
   return (
-    <div className='pt-24 divide-y-2 md:divide-y-0 divide-secondary-light-grey md:flex md:justify-between'>
-      <div className='pb-8 md:pb-0 md:w-56 relative'>
+    <div className='pt-24 divide-y-2 md:divide-y-0 divide-secondary-light-grey md:grid md:grid-cols-2'>
+      <div className='pb-8 h-[310px] md:h-full md:pb-0 md:mr-16 relative'>
         <Image
           src={profilePic}
           alt='profile picture'
           layout='fill'
           objectFit='cover'
+          objectPosition='right center'
         />
       </div>
-      <div className='text-primary-greyish-blue flex flex-col gap-7 pt-8 md:pt-0 md:w-[339px]'>
+      <div className='text-primary-greyish-blue flex flex-col gap-7 pt-8 md:pt-0'>
         <div className='hidden w-full h-[2px] mb-8 bg-secondary-light-grey md:block'></div>
         <h1 className='font-heading font-bold text-4xl'>About Me</h1>
         <p className='font-body text-base'>
